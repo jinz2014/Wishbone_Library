@@ -1,0 +1,44 @@
+# do compile.do 
+# Copying C:\modeltech_6.6b\win32/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\modeltech_6.6b\win32/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity testbnch
+# -- Compiling architecture testbnch1 of testbnch
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity mem0002a
+# -- Compiling architecture mem0002a1 of mem0002a
+# vsim -voptargs=+acc -t ns work.TESTBNCH 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE 6.6b May 21 2010 
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbnch(testbnch1)#1
+# Loading work.mem0002a(mem0002a1)#1
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode

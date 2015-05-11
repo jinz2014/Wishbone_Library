@@ -1,0 +1,8 @@
+# Output products list for <ram08x32>
+ram08x32.ngc
+ram08x32.vhd
+ram08x32.vho
+ram08x32.xco
+ram08x32_dist_mem_gen_v3_4_xst_1.ngc_xst.xrpt
+ram08x32_flist.txt
+ram08x32_xmdf.tcl

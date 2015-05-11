@@ -1,0 +1,5 @@
+--when 'X' => assert( EDWR(  7 downto  4 ) = B"XXXX" ) report "EDWR()
+
+Modelsim error:  illegal reference 'X'
+
+

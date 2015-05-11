@@ -1,0 +1,97 @@
+ARB00001a.vhd
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Slice Logic Utilization:
+  Number of Slice Registers:                     8 out of 207,360    1%
+    Number used as Flip Flops:                   8
+  Number of Slice LUTs:                         20 out of 207,360    1%
+    Number used as logic:                       20 out of 207,360    1%
+      Number using O6 output only:              20
+
+Slice Logic Distribution:
+  Number of occupied Slices:                     7 out of  51,840    1%
+  Number of LUT Flip Flop pairs used:           20
+    Number with an unused Flip Flop:            12 out of      20   60%
+    Number with an unused LUT:                   0 out of      20    0%
+    Number of fully used LUT-FF pairs:           8 out of      20   40%
+    Number of unique control sets:               4
+    Number of slice register sites lost
+      to control set restrictions:               8 out of 207,360    1%
+
+443.194MHz
+====================================================================================
+
+ARB00001b.v
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Slice Logic Utilization:
+  Number of Slice Registers:                     8 out of 207,360    1%
+    Number used as Flip Flops:                   8
+  Number of Slice LUTs:                         19 out of 207,360    1%
+    Number used as logic:                       19 out of 207,360    1%
+      Number using O6 output only:              19
+
+Slice Logic Distribution:
+  Number of occupied Slices:                     6 out of  51,840    1%
+  Number of LUT Flip Flop pairs used:           19
+    Number with an unused Flip Flop:            11 out of      19   57%
+    Number with an unused LUT:                   0 out of      19    0%
+    Number of fully used LUT-FF pairs:           8 out of      19   42%
+    Number of unique control sets:               4
+    Number of slice register sites lost
+      to control set restrictions:               8 out of 207,360    1%
+
+444.030MHz
+====================================================================================
+ARB00001c.v
+
+Slice Logic Utilization:
+  Number of Slice Registers:                     2 out of 207,360    1%
+    Number used as Flip Flops:                   2
+  Number of Slice LUTs:                          7 out of 207,360    1%
+    Number used as logic:                        7 out of 207,360    1%
+      Number using O6 output only:               7
+
+Slice Logic Distribution:
+  Number of occupied Slices:                     6 out of  51,840    1%
+  Number of LUT Flip Flop pairs used:            7
+    Number with an unused Flip Flop:             5 out of       7   71%
+    Number with an unused LUT:                   0 out of       7    0%
+    Number of fully used LUT-FF pairs:           2 out of       7   28%
+    Number of unique control sets:               1
+    Number of slice register sites lost
+      to control set restrictions:               2 out of 207,360    1%
+
+1003.361MHz
+
+====================================================================================
+ARB00001d.v
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Slice Logic Utilization:
+  Number of Slice Registers:                     4 out of 207,360    1%
+    Number used as Flip Flops:                   4
+  Number of Slice LUTs:                         14 out of 207,360    1%
+    Number used as logic:                       14 out of 207,360    1%
+      Number using O6 output only:              14
+
+Slice Logic Distribution:
+  Number of occupied Slices:                     6 out of  51,840    1%
+  Number of LUT Flip Flop pairs used:           14
+    Number with an unused Flip Flop:            10 out of      14   71%
+    Number with an unused LUT:                   0 out of      14    0%
+    Number of fully used LUT-FF pairs:           4 out of      14   28%
+    Number of unique control sets:               2
+    Number of slice register sites lost
+      to control set restrictions:               4 out of 207,360    1%
+
+669.232

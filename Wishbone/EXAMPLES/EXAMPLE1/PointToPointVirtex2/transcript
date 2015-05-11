@@ -1,0 +1,1190 @@
+# //  ModelSim SE 6.6b May 21 2010 
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do compile.do 
+# Modifying modelsim.ini
+# ** Warning: vmap will not overwrite local modelsim.ini.
+#          MODELSIM set to modelsim.ini.
+#          modelsim.ini was modified because copy failed
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+# Modifying modelsim.ini
+# C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver
+# C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver
+# C:/Users/Jin/Desktop/Courses/CSCE611/Wishbone/WBVHDLIB
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity dma0001a
+# -- Compiling architecture dma0001a1 of dma0001a
+# -- Compiling entity icn0001a
+# -- Compiling architecture icn0001a1 of icn0001a
+# -- Compiling entity mem0001a
+# -- Compiling architecture mem0001a1 of mem0001a
+# -- Compiling entity syc0001a
+# -- Compiling architecture syc0001a1 of syc0001a
+# -- Loading package textio
+# -- Compiling entity testbnch
+# -- Compiling architecture testbnch1 of testbnch
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ram08x32
+# -- Compiling architecture ram08x32_a of ram08x32
+# -- Loading package numeric_std
+# -- Loading package textio
+# -- Loading entity dist_mem_gen_v3_4
+# vsim -L C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver -voptargs=+acc -t ns work.TESTBNCH 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading work.testbnch(testbnch1)#1
+# Loading work.icn0001a(icn0001a1)#1
+# Loading work.syc0001a(syc0001a1)#1
+# Loading work.dma0001a(dma0001a1)#1
+# Loading work.mem0001a(mem0001a1)#1
+# Loading ieee.numeric_std(body)
+# Loading work.ram08x32(ram08x32_a)#1
+# Loading xilinxcorelib.dist_mem_gen_v3_4(behavioral)#1
+# ** Warning: (vsim-3479) Time unit 'ps' is less than the simulator resolution (1ns).
+#    Time: 0 ns  Iteration: 0  Region: /testbnch/tbench/u02/u00/u0
+# ** Note: RUNNING TEST VECTORS FROM FILE TESTVECT.TXT
+#    Time: 0 ns  Iteration: 0  Instance: /testbnch
+# ** Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+#    Time: 0 ns  Iteration: 0  Instance: /testbnch/tbench/u02/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /testbnch/tbench/u02/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /testbnch/tbench/u02/u00/u0
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1100 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1100 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1100 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2 us  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2 us  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2 us  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2100 ns  Iteration: 0  Instance: /testbnch
+# ** Note: TEST VECTORS COMPLETE.
+#    Time: 2100 ns  Iteration: 0  Instance: /testbnch
+add wave \
+{sim:/testbnch/tbench/ack } \
+{sim:/testbnch/tbench/adr } \
+{sim:/testbnch/tbench/clk } \
+{sim:/testbnch/tbench/drd } \
+{sim:/testbnch/tbench/dwr } \
+{sim:/testbnch/tbench/eack } \
+{sim:/testbnch/tbench/eadr } \
+{sim:/testbnch/tbench/edrd } \
+{sim:/testbnch/tbench/edwr } \
+{sim:/testbnch/tbench/estb } \
+{sim:/testbnch/tbench/ewe } \
+{sim:/testbnch/tbench/extclk } \
+{sim:/testbnch/tbench/exttst } \
+{sim:/testbnch/tbench/rst } \
+{sim:/testbnch/tbench/stb } \
+{sim:/testbnch/tbench/we } 
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Jin/Desktop/Courses/CSCE611/Wishbone/WBVHDLIB/EXAMPLES/EXAMPLE1/PointToPointVirtex2/wave.do
+do compile.do
+# Modifying modelsim.ini
+# ** Warning: vmap will not overwrite local modelsim.ini.
+#          MODELSIM set to modelsim.ini.
+#          modelsim.ini was modified because copy failed
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+# Modifying modelsim.ini
+# C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver
+# C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver
+# C:/Users/Jin/Desktop/Courses/CSCE611/Wishbone/WBVHDLIB
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity dma0001a
+# -- Compiling architecture dma0001a1 of dma0001a
+# -- Compiling entity icn0001a
+# -- Compiling architecture icn0001a1 of icn0001a
+# ** Error: ICN0001a.VHD(168): near ")": syntax error
+# ** Error: ICN0001a.VHD(171): Statement cannot be labeled.
+# ** Error: ICN0001a.VHD(215): VHDL Compiler exiting
+# ** Error: C:/modeltech_6.6b/win32/vcom failed.
+# Error in macro ./compile.do line 16
+# C:/modeltech_6.6b/win32/vcom failed.
+#     while executing
+# "vcom -reportprogress 300 -work work *.VHD"
+do compile.do
+# Modifying modelsim.ini
+# ** Warning: vmap will not overwrite local modelsim.ini.
+#          MODELSIM set to modelsim.ini.
+#          modelsim.ini was modified because copy failed
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+# Modifying modelsim.ini
+# C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver
+# C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver
+# C:/Users/Jin/Desktop/Courses/CSCE611/Wishbone/WBVHDLIB
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity dma0001a
+# -- Compiling architecture dma0001a1 of dma0001a
+# -- Compiling entity icn0001a
+# -- Compiling architecture icn0001a1 of icn0001a
+# -- Compiling entity mem0001a
+# -- Compiling architecture mem0001a1 of mem0001a
+# -- Compiling entity syc0001a
+# -- Compiling architecture syc0001a1 of syc0001a
+# -- Loading package textio
+# -- Compiling entity testbnch
+# -- Compiling architecture testbnch1 of testbnch
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ram08x32
+# -- Compiling architecture ram08x32_a of ram08x32
+# -- Loading package numeric_std
+# -- Loading package textio
+# -- Loading entity dist_mem_gen_v3_4
+# vsim -L C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver -voptargs=+acc -t ns work.TESTBNCH 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading work.testbnch(testbnch1)#1
+# Loading work.icn0001a(icn0001a1)#1
+# Loading work.syc0001a(syc0001a1)#1
+# Loading work.dma0001a(dma0001a1)#1
+# Loading work.mem0001a(mem0001a1)#1
+# Loading ieee.numeric_std(body)
+# Loading work.ram08x32(ram08x32_a)#1
+# Loading xilinxcorelib.dist_mem_gen_v3_4(behavioral)#1
+# ** Warning: (vsim-3479) Time unit 'ps' is less than the simulator resolution (1ns).
+#    Time: 0 ns  Iteration: 0  Region: /testbnch/tbench/u02/u00/u0
+# ** Note: RUNNING TEST VECTORS FROM FILE TESTVECT.TXT
+#    Time: 0 ns  Iteration: 0  Instance: /testbnch
+# ** Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+#    Time: 0 ns  Iteration: 0  Instance: /testbnch/tbench/u02/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /testbnch/tbench/u02/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /testbnch/tbench/u02/u00/u0
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1100 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1100 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1100 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2 us  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2 us  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2 us  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2100 ns  Iteration: 0  Instance: /testbnch
+# ** Note: TEST VECTORS COMPLETE.
+#    Time: 2100 ns  Iteration: 0  Instance: /testbnch
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Jin/Desktop/Courses/CSCE611/Wishbone/WBVHDLIB/EXAMPLES/EXAMPLE1/PointToPointVirtex2/wave.do
+cd ../../EXAMPLE2/SharedBusVirtex2
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+quit -sim
+cd ../../EXAMPLE2/SharedBusVirtex2
+# reading C:\modeltech_6.6b\win32/../modelsim.ini
+ls
+# ARB0001a.VHD
+# DMA0001a.VHD
+# ICN0002a.VHD
+# MEM0001a.VHD
+# SYC0001a.VHD
+# TESTBNCH.VHD
+# TESTVECT.TXT
+# compile.do
+do compile.do
+# Copying C:\modeltech_6.6b\win32/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\modeltech_6.6b\win32/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# Modifying modelsim.ini
+# C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver
+# C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver
+# C:/Users/Jin/Desktop/Courses/CSCE611/Wishbone/WBVHDLIB
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity arb0001a
+# -- Compiling architecture arb0001a1 of arb0001a
+# -- Compiling entity dma0001a
+# -- Compiling architecture dma0001a1 of dma0001a
+# -- Compiling entity icn0002a
+# -- Compiling architecture icn0002a1 of icn0002a
+# -- Compiling entity mem0001a
+# -- Compiling architecture mem0001a1 of mem0001a
+# -- Compiling entity syc0001a
+# -- Compiling architecture syc0001a1 of syc0001a
+# -- Loading package textio
+# -- Compiling entity testbnch
+# -- Compiling architecture testbnch1 of testbnch
+# ** Error: TESTBNCH.VHD(655): near "XXXX": (vcom-1205) Illegal character 'X' in bit string literal.
+# ** Error: TESTBNCH.VHD(655): near "XXXX": (vcom-1205) Illegal character 'X' in bit string literal.
+# ** Error: TESTBNCH.VHD(655): near "XXXX": (vcom-1205) Illegal character 'X' in bit string literal.
+# ** Error: TESTBNCH.VHD(655): near "XXXX": (vcom-1205) Illegal character 'X' in bit string literal.
+# ** Error: TESTBNCH.VHD(738): VHDL Compiler exiting
+# ** Error: C:/modeltech_6.6b/win32/vcom failed.
+# Error in macro ./compile.do line 16
+# C:/modeltech_6.6b/win32/vcom failed.
+#     while executing
+# "vcom -reportprogress 300 -work work *.VHD"
+do compile.do
+# Modifying modelsim.ini
+# ** Warning: vmap will not overwrite local modelsim.ini.
+#          MODELSIM set to modelsim.ini.
+#          modelsim.ini was modified because copy failed
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+# Modifying modelsim.ini
+# C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver
+# C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver
+# C:/Users/Jin/Desktop/Courses/CSCE611/Wishbone/WBVHDLIB
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity arb0001a
+# -- Compiling architecture arb0001a1 of arb0001a
+# -- Compiling entity dma0001a
+# -- Compiling architecture dma0001a1 of dma0001a
+# -- Compiling entity icn0002a
+# -- Compiling architecture icn0002a1 of icn0002a
+# -- Compiling entity mem0001a
+# -- Compiling architecture mem0001a1 of mem0001a
+# -- Compiling entity syc0001a
+# -- Compiling architecture syc0001a1 of syc0001a
+# -- Loading package textio
+# -- Compiling entity testbnch
+# -- Compiling architecture testbnch1 of testbnch
+# ** Error: TESTBNCH.VHD(655): near "----": (vcom-1205) Illegal character '-' in bit string literal.
+# ** Error: TESTBNCH.VHD(655): near "----": (vcom-1205) Illegal character '-' in bit string literal.
+# ** Error: TESTBNCH.VHD(655): near "----": (vcom-1205) Illegal character '-' in bit string literal.
+# ** Error: TESTBNCH.VHD(655): near "----": (vcom-1205) Illegal character '-' in bit string literal.
+# ** Error: TESTBNCH.VHD(738): VHDL Compiler exiting
+# ** Error: C:/modeltech_6.6b/win32/vcom failed.
+# Error in macro ./compile.do line 16
+# C:/modeltech_6.6b/win32/vcom failed.
+#     while executing
+# "vcom -reportprogress 300 -work work *.VHD"
+do compile.do
+# Modifying modelsim.ini
+# ** Warning: vmap will not overwrite local modelsim.ini.
+#          MODELSIM set to modelsim.ini.
+#          modelsim.ini was modified because copy failed
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+# Modifying modelsim.ini
+# C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver
+# C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver
+# C:/Users/Jin/Desktop/Courses/CSCE611/Wishbone/WBVHDLIB
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity arb0001a
+# -- Compiling architecture arb0001a1 of arb0001a
+# -- Compiling entity dma0001a
+# -- Compiling architecture dma0001a1 of dma0001a
+# -- Compiling entity icn0002a
+# -- Compiling architecture icn0002a1 of icn0002a
+# -- Compiling entity mem0001a
+# -- Compiling architecture mem0001a1 of mem0001a
+# -- Compiling entity syc0001a
+# -- Compiling architecture syc0001a1 of syc0001a
+# -- Loading package textio
+# -- Compiling entity testbnch
+# -- Compiling architecture testbnch1 of testbnch
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ram08x32
+# -- Compiling architecture ram08x32_a of ram08x32
+# -- Loading package numeric_std
+# -- Loading package textio
+# -- Loading entity dist_mem_gen_v3_4
+# vsim -L C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver -voptargs=+acc -t ns work.TESTBNCH 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading work.testbnch(testbnch1)#1
+# Loading work.icn0002a(icn0002a1)#1
+# Loading work.dma0001a(dma0001a1)#1
+# Loading work.mem0001a(mem0001a1)#1
+# Loading ieee.numeric_std(body)
+# Loading work.ram08x32(ram08x32_a)#1
+# Loading xilinxcorelib.dist_mem_gen_v3_4(behavioral)#1
+# ** Warning: (vsim-3479) Time unit 'ps' is less than the simulator resolution (1ns).
+#    Time: 0 ns  Iteration: 0  Region: /testbnch/tbench/u04/u00/u0
+# Loading work.arb0001a(arb0001a1)#1
+# Loading work.syc0001a(syc0001a1)#1
+# ** Note: RUNNING TEST VECTORS FROM FILE TESTVECT.TXT
+#    Time: 0 ns  Iteration: 0  Instance: /testbnch
+# ** Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+#    Time: 0 ns  Iteration: 0  Instance: /testbnch/tbench/u07/u00/u0
+# ** Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+#    Time: 0 ns  Iteration: 0  Instance: /testbnch/tbench/u06/u00/u0
+# ** Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+#    Time: 0 ns  Iteration: 0  Instance: /testbnch/tbench/u05/u00/u0
+# ** Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+#    Time: 0 ns  Iteration: 0  Instance: /testbnch/tbench/u04/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /testbnch/tbench/u07/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /testbnch/tbench/u06/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /testbnch/tbench/u05/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /testbnch/tbench/u04/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /testbnch/tbench/u07/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /testbnch/tbench/u06/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /testbnch/tbench/u05/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /testbnch/tbench/u04/u00/u0
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 400 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 400 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 400 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2400 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2400 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2400 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 3300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 3300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 3300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 4200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 4200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 4200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 5100 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 5100 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 5100 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 5300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 5300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 5300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 6200 ns  Iteration: 0  Instance: /testbnch
+# ** Note: TEST VECTORS COMPLETE.
+#    Time: 6200 ns  Iteration: 0  Instance: /testbnch
+add wave \
+{sim:/testbnch/tbench/ack } \
+{sim:/testbnch/tbench/ack_i_m0 } \
+{sim:/testbnch/tbench/ack_i_m1 } \
+{sim:/testbnch/tbench/ack_i_m2 } \
+{sim:/testbnch/tbench/ack_i_m3 } \
+{sim:/testbnch/tbench/ack_o_s0 } \
+{sim:/testbnch/tbench/ack_o_s1 } \
+{sim:/testbnch/tbench/ack_o_s2 } \
+{sim:/testbnch/tbench/ack_o_s3 } \
+{sim:/testbnch/tbench/acmp0 } \
+{sim:/testbnch/tbench/acmp1 } \
+{sim:/testbnch/tbench/acmp2 } \
+{sim:/testbnch/tbench/acmp3 } \
+{sim:/testbnch/tbench/adr } \
+{sim:/testbnch/tbench/adr_o_m0 } \
+{sim:/testbnch/tbench/adr_o_m1 } \
+{sim:/testbnch/tbench/adr_o_m2 } \
+{sim:/testbnch/tbench/adr_o_m3 } \
+{sim:/testbnch/tbench/clk } \
+{sim:/testbnch/tbench/cyc } \
+{sim:/testbnch/tbench/cyc_o_m0 } \
+{sim:/testbnch/tbench/cyc_o_m1 } \
+{sim:/testbnch/tbench/cyc_o_m2 } \
+{sim:/testbnch/tbench/cyc_o_m3 } \
+{sim:/testbnch/tbench/dat_o_m0 } \
+{sim:/testbnch/tbench/dat_o_m1 } \
+{sim:/testbnch/tbench/dat_o_m2 } \
+{sim:/testbnch/tbench/dat_o_m3 } \
+{sim:/testbnch/tbench/dat_o_s0 } \
+{sim:/testbnch/tbench/dat_o_s1 } \
+{sim:/testbnch/tbench/dat_o_s2 } \
+{sim:/testbnch/tbench/dat_o_s3 } \
+{sim:/testbnch/tbench/drd } \
+{sim:/testbnch/tbench/dwr } \
+{sim:/testbnch/tbench/eack } \
+{sim:/testbnch/tbench/eadr } \
+{sim:/testbnch/tbench/ecyc } \
+{sim:/testbnch/tbench/edrd } \
+{sim:/testbnch/tbench/edwr } \
+{sim:/testbnch/tbench/egnt } \
+{sim:/testbnch/tbench/estb } \
+{sim:/testbnch/tbench/ewe } \
+{sim:/testbnch/tbench/extclk } \
+{sim:/testbnch/tbench/exttst } \
+{sim:/testbnch/tbench/gnt } \
+{sim:/testbnch/tbench/gnt0 } \
+{sim:/testbnch/tbench/gnt1 } \
+{sim:/testbnch/tbench/gnt2 } \
+{sim:/testbnch/tbench/gnt3 } \
+{sim:/testbnch/tbench/rst } \
+{sim:/testbnch/tbench/stb } \
+{sim:/testbnch/tbench/stb_i_s0 } \
+{sim:/testbnch/tbench/stb_i_s1 } \
+{sim:/testbnch/tbench/stb_i_s2 } \
+{sim:/testbnch/tbench/stb_i_s3 } \
+{sim:/testbnch/tbench/stb_o_m0 } \
+{sim:/testbnch/tbench/stb_o_m1 } \
+{sim:/testbnch/tbench/stb_o_m2 } \
+{sim:/testbnch/tbench/stb_o_m3 } \
+{sim:/testbnch/tbench/we } \
+{sim:/testbnch/tbench/we_o_m0 } \
+{sim:/testbnch/tbench/we_o_m1 } \
+{sim:/testbnch/tbench/we_o_m2 } \
+{sim:/testbnch/tbench/we_o_m3 } 
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Jin/Desktop/Courses/CSCE611/Wishbone/WBVHDLIB/EXAMPLES/EXAMPLE2/SharedBusVirtex2/wave.do
+restart
+run -all
+# ** Note: RUNNING TEST VECTORS FROM FILE TESTVECT.TXT
+#    Time: 0 ns  Iteration: 0  Instance: /testbnch
+# ** Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+#    Time: 0 ns  Iteration: 0  Instance: /testbnch/tbench/u07/u00/u0
+# ** Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+#    Time: 0 ns  Iteration: 0  Instance: /testbnch/tbench/u06/u00/u0
+# ** Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+#    Time: 0 ns  Iteration: 0  Instance: /testbnch/tbench/u05/u00/u0
+# ** Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+#    Time: 0 ns  Iteration: 0  Instance: /testbnch/tbench/u04/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /testbnch/tbench/u07/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /testbnch/tbench/u06/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /testbnch/tbench/u05/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /testbnch/tbench/u04/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /testbnch/tbench/u07/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /testbnch/tbench/u06/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /testbnch/tbench/u05/u00/u0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /testbnch/tbench/u04/u00/u0
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 400 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 400 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 400 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2400 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2400 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2400 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 3300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 3300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 3300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 4200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 4200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 4200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 5100 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 5100 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 5100 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 5300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 5300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 5300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 6200 ns  Iteration: 0  Instance: /testbnch
+# ** Note: TEST VECTORS COMPLETE.
+#    Time: 6200 ns  Iteration: 0  Instance: /testbnch
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Jin/Desktop/Courses/CSCE611/Wishbone/WBVHDLIB/EXAMPLES/EXAMPLE2/SharedBusVirtex2/wave.do
+quit
+quit

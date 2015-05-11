@@ -1,0 +1,103 @@
+# //  ModelSim SE 6.6b May 21 2010 
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do compile.do 
+# Modifying modelsim.ini
+# ** Warning: vmap will not overwrite local modelsim.ini.
+#          MODELSIM set to modelsim.ini.
+#          modelsim.ini was modified because copy failed
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+# Modifying modelsim.ini
+# Error: Access is denied.
+# 
+# 
+#        Unable to replace existing ini file (modelsim.ini).  File can not be renamed.
+# Modifying modelsim.ini
+# C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver
+# C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/unisims_ver
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module TESTBNCH
+# 
+# Top level modules:
+# 	TESTBNCH
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module MEM0003a
+# 
+# Top level modules:
+# 	MEM0003a
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module bram08x32
+# 
+# Top level modules:
+# 	bram08x32
+# vsim -L C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver -L C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/unisims_ver -voptargs=+acc -t ns work.TESTBNCH 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.TESTBNCH(fast)
+# Loading work.MEM0003a(fast)
+# Loading work.bram08x32(fast)
+# Loading C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver.BLK_MEM_GEN_V2_7(fast)
+# Loading C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver.BLK_MEM_GEN_V2_7_output_stage(fast)
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/CLK_I'.
+# Executing ONERROR command at macro ./wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/STB_I'.
+# Executing ONERROR command at macro ./wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/WE_I'.
+# Executing ONERROR command at macro ./wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/ADR_I'.
+# Executing ONERROR command at macro ./wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/DAT_I'.
+# Executing ONERROR command at macro ./wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/ACK_O'.
+# Executing ONERROR command at macro ./wave.do line 8
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/DAT_O'.
+# Executing ONERROR command at macro ./wave.do line 9
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/LACK_O'.
+# Executing ONERROR command at macro ./wave.do line 10
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/LADR'.
+# Executing ONERROR command at macro ./wave.do line 11
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/LDAT_O'.
+# Executing ONERROR command at macro ./wave.do line 12
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/STB_R'.
+# Executing ONERROR command at macro ./wave.do line 13
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/WE'.
+# Executing ONERROR command at macro ./wave.do line 14
+# Block Memory Generator CORE Generator module TESTBNCH.TBENCH.U00.inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# ** Note: $finish    : TESTBNCH.v(76)
+#    Time: 15760 ns  Iteration: 1  Instance: /TESTBNCH
+# 1
+# Break in Module TESTBNCH at TESTBNCH.v line 76
+# Simulation Breakpoint: 1
+# Break in Module TESTBNCH at TESTBNCH.v line 76
+# MACRO ./compile.do PAUSED at line 28
+add wave \
+{sim:/TESTBNCH/ACK_O } \
+{sim:/TESTBNCH/ADR_I } \
+{sim:/TESTBNCH/CLK_I } \
+{sim:/TESTBNCH/DAT_I } \
+{sim:/TESTBNCH/DAT_O } \
+{sim:/TESTBNCH/i } \
+{sim:/TESTBNCH/STB_I } \
+{sim:/TESTBNCH/WE_I } 
+run -all
+restart
+# Loading work.TESTBNCH(fast)
+# Loading work.MEM0003a(fast)
+# Loading work.bram08x32(fast)
+# Loading C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver.BLK_MEM_GEN_V2_7(fast)
+# Loading C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver.BLK_MEM_GEN_V2_7_output_stage(fast)
+run -all
+# Block Memory Generator CORE Generator module TESTBNCH.TBENCH.U00.inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# ** Note: $finish    : TESTBNCH.v(76)
+#    Time: 15760 ns  Iteration: 1  Instance: /TESTBNCH
+# 1
+# Break in Module TESTBNCH at TESTBNCH.v line 76
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Jin/Desktop/Courses/CSCE611/Wishbone/WBVHDLIB/WISHLIBS/MEMORY/MEM0003a/wave.do
+quit

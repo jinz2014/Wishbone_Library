@@ -1,0 +1,456 @@
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.18-238.19.1.el5
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do compile.do 
+# Modifying modelsim.ini
+# ** Warning: vmap will not overwrite local modelsim.ini.
+#          MODELSIM set to modelsim.ini.
+#          modelsim.ini was modified because copy failed
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+# -L /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module DMA0001b
+# -- Compiling module MEM0003a
+# -- Compiling module SYC0001b
+# -- Compiling module TESTBNCH
+# -- Compiling module bram08x32
+# 
+# Top level modules:
+# 	DMA0001b
+# 	MEM0003a
+# 	SYC0001b
+# 	TESTBNCH
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity icn0001b
+# -- Compiling architecture icn0001b1 of icn0001b
+# vsim -L /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver -voptargs=+acc -t ns work.TESTBNCH 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.TESTBNCH(fast)
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.icn0001b(icn0001b1)#1
+# Loading work.SYC0001b(fast)
+# Loading work.DMA0001b(fast)
+# Loading work.MEM0003a(fast)
+# Loading work.bram08x32(fast)
+# Loading /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver.BLK_MEM_GEN_V2_7(fast)
+# Loading /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver.BLK_MEM_GEN_V2_7_output_stage(fast)
+# Block Memory Generator CORE Generator module TESTBNCH.ICN.u02.U00.inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#                  900 Info :  0 write exp read val=01234568
+# ** Note: $finish    : TESTBNCH.v(70)
+#    Time: 1250 ns  Iteration: 2  Instance: /TESTBNCH
+# 1
+# Break in Module TESTBNCH at TESTBNCH.v line 70
+# Simulation Breakpoint: 1
+# Break in Module TESTBNCH at TESTBNCH.v line 70
+# MACRO ./compile.do PAUSED at line 24
+do compile.do
+# Modifying modelsim.ini
+# ** Warning: vmap will not overwrite local modelsim.ini.
+#          MODELSIM set to modelsim.ini.
+#          modelsim.ini was modified because copy failed
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+# -L /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module DMA0001b
+# -- Compiling module MEM0003a
+# -- Compiling module SYC0001b
+# -- Compiling module TESTBNCH
+# -- Compiling module bram08x32
+# 
+# Top level modules:
+# 	DMA0001b
+# 	MEM0003a
+# 	SYC0001b
+# 	TESTBNCH
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity icn0001b
+# -- Compiling architecture icn0001b1 of icn0001b
+# vsim -L /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver -voptargs=+acc -t ns work.TESTBNCH 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.TESTBNCH(fast)
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.icn0001b(icn0001b1)#1
+# Loading work.SYC0001b(fast)
+# Loading work.DMA0001b(fast)
+# Loading work.MEM0003a(fast)
+# Loading work.bram08x32(fast)
+# Loading /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver.BLK_MEM_GEN_V2_7(fast)
+# Loading /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver.BLK_MEM_GEN_V2_7_output_stage(fast)
+# Block Memory Generator CORE Generator module TESTBNCH.ICN.u02.U00.inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#                  400 Info :  0 write exp read val=01234568
+#                  900 Info :  0 write exp read val=01234569
+# ** Note: $finish    : TESTBNCH.v(70)
+#    Time: 1250 ns  Iteration: 2  Instance: /TESTBNCH
+# 1
+# Break in Module TESTBNCH at TESTBNCH.v line 70
+# Simulation Breakpoint: 1
+# Break in Module TESTBNCH at TESTBNCH.v line 70
+# MACRO ./compile.do PAUSED at line 24
+do compile.do
+# Modifying modelsim.ini
+# ** Warning: vmap will not overwrite local modelsim.ini.
+#          MODELSIM set to modelsim.ini.
+#          modelsim.ini was modified because copy failed
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+# -L /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module DMA0001b
+# -- Compiling module MEM0003a
+# -- Compiling module SYC0001b
+# -- Compiling module TESTBNCH
+# -- Compiling module bram08x32
+# 
+# Top level modules:
+# 	DMA0001b
+# 	MEM0003a
+# 	SYC0001b
+# 	TESTBNCH
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity icn0001b
+# -- Compiling architecture icn0001b1 of icn0001b
+# vsim -L /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver -voptargs=+acc -t ns work.TESTBNCH 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.TESTBNCH(fast)
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.icn0001b(icn0001b1)#1
+# Loading work.SYC0001b(fast)
+# Loading work.DMA0001b(fast)
+# Loading work.MEM0003a(fast)
+# Loading work.bram08x32(fast)
+# Loading /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver.BLK_MEM_GEN_V2_7(fast)
+# Loading /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver.BLK_MEM_GEN_V2_7_output_stage(fast)
+# Block Memory Generator CORE Generator module TESTBNCH.ICN.u02.U00.inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#                  400 Info :  0 write exp read val=01234568
+#                 1100 Info :  0 write exp read val=01234569
+# ** Note: $finish    : TESTBNCH.v(70)
+#    Time: 1650 ns  Iteration: 2  Instance: /TESTBNCH
+# 1
+# Break in Module TESTBNCH at TESTBNCH.v line 70
+# Simulation Breakpoint: 1
+# Break in Module TESTBNCH at TESTBNCH.v line 70
+# MACRO ./compile.do PAUSED at line 24
+do compile.do
+# Modifying modelsim.ini
+# ** Warning: vmap will not overwrite local modelsim.ini.
+#          MODELSIM set to modelsim.ini.
+#          modelsim.ini was modified because copy failed
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+# -L /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module DMA0001b
+# -- Compiling module MEM0003a
+# -- Compiling module SYC0001b
+# -- Compiling module TESTBNCH
+# -- Compiling module bram08x32
+# 
+# Top level modules:
+# 	DMA0001b
+# 	MEM0003a
+# 	SYC0001b
+# 	TESTBNCH
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity icn0001b
+# -- Compiling architecture icn0001b1 of icn0001b
+# vsim -L /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver -voptargs=+acc -t ns work.TESTBNCH 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.TESTBNCH(fast)
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.icn0001b(icn0001b1)#1
+# Loading work.SYC0001b(fast)
+# Loading work.DMA0001b(fast)
+# Loading work.MEM0003a(fast)
+# Loading work.bram08x32(fast)
+# Loading /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver.BLK_MEM_GEN_V2_7(fast)
+# Loading /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver.BLK_MEM_GEN_V2_7_output_stage(fast)
+# Block Memory Generator CORE Generator module TESTBNCH.ICN.u02.U00.inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#                  500 Info :  0 write exp read val=01234569
+#                 1200 Info :  0 write exp read val=0123456b
+# ** Note: $finish    : TESTBNCH.v(70)
+#    Time: 1650 ns  Iteration: 2  Instance: /TESTBNCH
+# 1
+# Break in Module TESTBNCH at TESTBNCH.v line 70
+# Simulation Breakpoint: 1
+# Break in Module TESTBNCH at TESTBNCH.v line 70
+# MACRO ./compile.do PAUSED at line 24
+do compile.do
+# Modifying modelsim.ini
+# ** Warning: vmap will not overwrite local modelsim.ini.
+#          MODELSIM set to modelsim.ini.
+#          modelsim.ini was modified because copy failed
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+# -L /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module DMA0001b
+# ** Error: DMA0001b.v(230): near "endtask": syntax error, unexpected "endtask"
+# ** Error: MEM0003a.v(32): Declarations not allowed in unnamed block.
+# ** Error: MEM0003a.v(34): Illegal declaration near line '32'.  Declarations must precede statements.
+# ** Error: MEM0003a.v(50): Undefined variable: LADR.
+# ** Error: MEM0003a.v(50): Undefined variable: ADR_I.
+# ** Error: MEM0003a.v(50): LHS in procedural continuous assignment may not be a net: LADR.
+# ** Error: MEM0003a.v(55): Undefined variable: STB_I.
+# ** Error: MEM0003a.v(55): Undefined variable: WE_I.
+# ** Error: MEM0003a.v(87): Undefined variable: LACK_O.
+# ** Error: MEM0003a.v(87): LHS in procedural continuous assignment may not be a net: LACK_O.
+# ** Error: MEM0003a.v(90): near "always": syntax error, unexpected "always"
+# ** Error: MEM0003a.v(98): Undefined variable: ACK_O.
+# ** Error: MEM0003a.v(98): LHS in procedural continuous assignment may not be a net: ACK_O.
+# ** Error: MEM0003a.v(99): LHS in procedural continuous assignment may not be a net: DAT_O.
+# ** Error: MEM0003a.v(101): near "endmodule": syntax error, unexpected "endmodule"
+# ** Error: SYC0001b.v(34): Undefined variable: RST.
+# ** Error: SYC0001b.v(34): Undefined variable: EXTTST.
+# ** Error: SYC0001b.v(34): Undefined variable: DLY.
+# ** Error: SYC0001b.v(36): near "end": syntax error, unexpected "end"
+# ** Error: SYC0001b.v(39): Undefined variable: RST_O.
+# ** Error: SYC0001b.v(39): LHS in procedural continuous assignment may not be a net: RST_O.
+# ** Error: SYC0001b.v(41): near "endmodule": syntax error, unexpected "endmodule"
+# ** Error: TESTBNCH.v(45): Undefined variable: ICN0001b.
+# ** Error: TESTBNCH.v(64): Undefined variable: PERIOD.
+# ** Error: TESTBNCH.v(71): near "end": syntax error, unexpected "end"
+# ** Error: bram08x32.v(56): Undefined variable: BLK_MEM_GEN_V2_7.
+# ** Error: /usr/local/3rdparty/mentor/modelsim661/modeltech/linux/vlog failed.
+# Error in macro ./compile.do line 13
+# /usr/local/3rdparty/mentor/modelsim661/modeltech/linux/vlog failed.
+#     while executing
+# "vlog -work work *.v"
+
+do compile.do
+# Modifying modelsim.ini
+# ** Warning: vmap will not overwrite local modelsim.ini.
+#          MODELSIM set to modelsim.ini.
+#          modelsim.ini was modified because copy failed
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+# -L /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module DMA0001b
+# -- Compiling module MEM0003a
+# -- Compiling module SYC0001b
+# -- Compiling module TESTBNCH
+# -- Compiling module bram08x32
+# 
+# Top level modules:
+# 	DMA0001b
+# 	MEM0003a
+# 	SYC0001b
+# 	TESTBNCH
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity icn0001b
+# -- Compiling architecture icn0001b1 of icn0001b
+# vsim -L /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver -voptargs=+acc -t ns work.TESTBNCH 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.TESTBNCH(fast)
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.icn0001b(icn0001b1)#1
+# Loading work.SYC0001b(fast)
+# Loading work.DMA0001b(fast)
+# Loading work.MEM0003a(fast)
+# Loading work.bram08x32(fast)
+# Loading /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver.BLK_MEM_GEN_V2_7(fast)
+# Loading /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver.BLK_MEM_GEN_V2_7_output_stage(fast)
+# Block Memory Generator CORE Generator module TESTBNCH.ICN.u02.U00.inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#                  400 Info :  0 write exp read val=01234568
+#                  500 Info :  1 write exp read val=01234569
+#                  750 Error:  0 exp read val=01234568  act read val=00000000
+#                  750 Error:  1 exp read val=01234569  act read val=00000000
+#                 1100 Info :  0 write exp read val=0123456a
+#                 1200 Info :  1 write exp read val=0123456b
+#                 1450 Error:  0 exp read val=0123456a  act read val=00000000
+#                 1450 Error:  1 exp read val=0123456b  act read val=00000000
+# ** Note: $finish    : TESTBNCH.v(70)
+#    Time: 1650 ns  Iteration: 2  Instance: /TESTBNCH
+# 1
+# Break in Module TESTBNCH at TESTBNCH.v line 70
+# Simulation Breakpoint: 1
+# Break in Module TESTBNCH at TESTBNCH.v line 70
+# MACRO ./compile.do PAUSED at line 24
+do compile.do
+# Modifying modelsim.ini
+# ** Warning: vmap will not overwrite local modelsim.ini.
+#          MODELSIM set to modelsim.ini.
+#          modelsim.ini was modified because copy failed
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+# -L /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module DMA0001b
+# -- Compiling module MEM0003a
+# -- Compiling module SYC0001b
+# -- Compiling module TESTBNCH
+# -- Compiling module bram08x32
+# 
+# Top level modules:
+# 	DMA0001b
+# 	MEM0003a
+# 	SYC0001b
+# 	TESTBNCH
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity icn0001b
+# -- Compiling architecture icn0001b1 of icn0001b
+# vsim -L /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver -voptargs=+acc -t ns work.TESTBNCH 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.TESTBNCH(fast)
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.icn0001b(icn0001b1)#1
+# Loading work.SYC0001b(fast)
+# Loading work.DMA0001b(fast)
+# Loading work.MEM0003a(fast)
+# Loading work.bram08x32(fast)
+# Loading /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver.BLK_MEM_GEN_V2_7(fast)
+# Loading /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver.BLK_MEM_GEN_V2_7_output_stage(fast)
+# Block Memory Generator CORE Generator module TESTBNCH.ICN.u02.U00.inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#                  400 Info :  0 write exp read val=01234568
+#                  500 Info :  1 write exp read val=01234569
+#                 1100 Info :  0 write exp read val=0123456a
+#                 1200 Info :  1 write exp read val=0123456b
+# ** Note: $finish    : TESTBNCH.v(70)
+#    Time: 1650 ns  Iteration: 2  Instance: /TESTBNCH
+# 1
+# Break in Module TESTBNCH at TESTBNCH.v line 70
+# Simulation Breakpoint: 1
+# Break in Module TESTBNCH at TESTBNCH.v line 70
+# MACRO ./compile.do PAUSED at line 24
+do compile.do
+# Modifying modelsim.ini
+# ** Warning: vmap will not overwrite local modelsim.ini.
+#          MODELSIM set to modelsim.ini.
+#          modelsim.ini was modified because copy failed
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+# -L /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module DMA0001b
+# -- Compiling module MEM0003a
+# -- Compiling module SYC0001b
+# -- Compiling module TESTBNCH
+# -- Compiling module bram08x32
+# 
+# Top level modules:
+# 	DMA0001b
+# 	MEM0003a
+# 	SYC0001b
+# 	TESTBNCH
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity icn0001b
+# -- Compiling architecture icn0001b1 of icn0001b
+# vsim -L /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver -voptargs=+acc -t ns work.TESTBNCH 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.TESTBNCH(fast)
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.icn0001b(icn0001b1)#1
+# Loading work.SYC0001b(fast)
+# Loading work.DMA0001b(fast)
+# Loading work.MEM0003a(fast)
+# Loading work.bram08x32(fast)
+# Loading /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver.BLK_MEM_GEN_V2_7(fast)
+# Loading /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver.BLK_MEM_GEN_V2_7_output_stage(fast)
+# Block Memory Generator CORE Generator module TESTBNCH.ICN.u02.U00.inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#                  400 Info :  0 write exp read val=01234568
+#                  500 Info :  1 write exp read val=01234569
+#                  600 Info :  2 write exp read val=0123456a
+#                  700 Info :  3 write exp read val=0123456b
+#                  800 Info :  4 write exp read val=0123456c
+#                  900 Info :  5 write exp read val=0123456d
+#                 1000 Info :  6 write exp read val=0123456e
+#                 1100 Info :  7 write exp read val=0123456f
+#                 2300 Info :  0 write exp read val=01234570
+#                 2400 Info :  1 write exp read val=01234571
+#                 2500 Info :  2 write exp read val=01234572
+#                 2600 Info :  3 write exp read val=01234573
+#                 2700 Info :  4 write exp read val=01234574
+#                 2800 Info :  5 write exp read val=01234575
+#                 2900 Info :  6 write exp read val=01234576
+#                 3000 Info :  7 write exp read val=01234577
+# ** Note: $finish    : TESTBNCH.v(70)
+#    Time: 4050 ns  Iteration: 2  Instance: /TESTBNCH
+# 1
+# Break in Module TESTBNCH at TESTBNCH.v line 70
+# Simulation Breakpoint: 1
+# Break in Module TESTBNCH at TESTBNCH.v line 70
+# MACRO ./compile.do PAUSED at line 24
+do compile.do
+# Modifying modelsim.ini
+# ** Warning: vmap will not overwrite local modelsim.ini.
+#          MODELSIM set to modelsim.ini.
+#          modelsim.ini was modified because copy failed
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+# -L /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module DMA0001b
+# -- Compiling module MEM0003a
+# -- Compiling module SYC0001b
+# -- Compiling module TESTBNCH
+# -- Compiling module bram08x32
+# 
+# Top level modules:
+# 	DMA0001b
+# 	MEM0003a
+# 	SYC0001b
+# 	TESTBNCH
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity icn0001b
+# -- Compiling architecture icn0001b1 of icn0001b
+# vsim -L /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver -voptargs=+acc -t ns work.TESTBNCH 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.TESTBNCH(fast)
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.icn0001b(icn0001b1)#1
+# Loading work.SYC0001b(fast)
+# Loading work.DMA0001b(fast)
+# Loading work.MEM0003a(fast)
+# Loading work.bram08x32(fast)
+# Loading /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver.BLK_MEM_GEN_V2_7(fast)
+# Loading /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver.BLK_MEM_GEN_V2_7_output_stage(fast)
+# Block Memory Generator CORE Generator module TESTBNCH.ICN.u02.U00.inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#                  400 Info :  0 write exp read val=01234568
+#                  900 Info :  0 write exp read val=01234569
+#                 1400 Info :  0 write exp read val=0123456a
+#                 1900 Info :  0 write exp read val=0123456b
+#                 2400 Info :  0 write exp read val=0123456c
+#                 2900 Info :  0 write exp read val=0123456d
+#                 3400 Info :  0 write exp read val=0123456e
+#                 3900 Info :  0 write exp read val=0123456f
+# ** Note: $finish    : TESTBNCH.v(70)
+#    Time: 4250 ns  Iteration: 2  Instance: /TESTBNCH
+# 1
+# Break in Module TESTBNCH at TESTBNCH.v line 70
+# Simulation Breakpoint: 1
+# Break in Module TESTBNCH at TESTBNCH.v line 70
+# MACRO ./compile.do PAUSED at line 24
+quit

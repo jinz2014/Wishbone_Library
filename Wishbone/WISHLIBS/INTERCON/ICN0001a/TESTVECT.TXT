@@ -1,0 +1,84 @@
+----------------------------------------------------------------------
+-- Module name:     TESTVECT.TXT
+--
+-- Description:     Test vectors for the ICN0001a WISHBONE
+--                  point-to-point interconnection.  For
+--                  more information, please refer to the WISHBONE
+--                  Public Domain Library Technical Reference Manual.
+--
+-- History:         Project complete:           SEP 20, 2001
+--                                              WD Peterson
+--                                              Silicore Corporation
+--
+-- Release:         Notice is hereby given that this document is not
+--                  copyrighted, and has been placed into the public
+--                  domain.  It may be freely copied and distributed
+--                  by any means.
+--
+-- Disclaimer:      In no event shall Silicore Corporation be liable
+--                  for incidental, consequential, indirect or special
+--                  damages resulting from the use of this file.  The
+--                  user assumes all responsibility for its use.
+--
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+-- E
+-- X    
+-- T E EEEEEEEE EEEEEEEE E   E
+-- C A DDDDDDDD DDDDDDDD S E A
+-- L D RRRRRRRR WWWWWWWW T W C
+-- K R DDDDDDDD RRRRRRRR B E K                 COMMENTS
+----------------------------------------------------------------------
+-- I I OOOOOOOO OOOOOOOO O O O
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+-- NOTE: The internal power-up conditions of the FPGA is reproduced
+-- in the test bench file by asserting the 'EXTRST' input.  The first
+-- test vector represents the initial, reset condition of the part.
+----------------------------------------------------------------------
+:  R 0 UUUUUUUU 01234567 0 0 0
+
+
+----------------------------------------------------------------------
+-- DMA0001a performs a BLOCK WRITE cycle with eight phases.
+----------------------------------------------------------------------
+
+:  R 0 UUUUUUUU 01234567 1 1 1
+:  R 1 UUUUUUUU 01234567 1 1 1
+:  R 2 UUUUUUUU 01234567 1 1 1
+:  R 3 UUUUUUUU 01234567 1 1 1
+:  R 4 UUUUUUUU 01234567 1 1 1
+:  R 5 UUUUUUUU 01234567 1 1 1
+:  R 6 UUUUUUUU 01234567 1 1 1
+:  R 7 UUUUUUUU 01234567 1 1 1
+
+
+----------------------------------------------------------------------
+-- DMA0001a terminates the BLOCK WRITE cycle.
+----------------------------------------------------------------------
+
+:  R 0 UUUUUUUU 01234567 0 1 0
+
+
+----------------------------------------------------------------------
+-- DMA0001a performs a BLOCK READ cycle with eight phases.
+----------------------------------------------------------------------
+
+:  R 0 01234567 01234567 1 0 1
+:  R 1 01234567 00000000 1 0 1
+:  R 2 01234567 01234567 1 0 1
+:  R 3 01234567 01234567 1 0 1
+:  R 4 01234567 01234567 1 0 1
+:  R 5 01234567 01234567 1 0 1
+:  R 6 01234567 01234567 1 0 1
+:  R 7 01234567 01234567 1 0 1
+
+
+----------------------------------------------------------------------
+-- DMA0001a terminates the BLOCK READ cycle.
+----------------------------------------------------------------------
+
+:  R 0 01234567 01234567 0 0 0
+

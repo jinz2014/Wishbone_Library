@@ -1,0 +1,20 @@
+# Date: Sun Aug 21 04:36:07 2011
+SET addpads = False
+SET asysymbol = False
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = False
+SET designentry = VHDL
+SET device = xc5vlx330
+SET devicefamily = virtex5
+SET flowvendor = Other
+SET formalverification = False
+SET foundationsym = False
+SET implementationfiletype = Ngc
+SET package = ff1760
+SET removerpms = False
+SET simulationfiles = Behavioral
+SET speedgrade = -2
+SET verilogsim = False
+SET vhdlsim = True
+SET workingdirectory = C:\Users\Jin\Desktop\Courses\CSCE611\Wishbone\WBVHDLIB\WISHLIBS\MEMORY\MEM0001a\tmp
+

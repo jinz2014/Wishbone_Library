@@ -1,0 +1,10 @@
+# Output products list for <bram08x32>
+bram08x32.asy
+bram08x32.ngc
+bram08x32.sym
+bram08x32.v
+bram08x32.veo
+bram08x32.xco
+bram08x32_blk_mem_gen_v2_8_xst_1.ngc_xst.xrpt
+bram08x32_flist.txt
+bram08x32_xmdf.tcl

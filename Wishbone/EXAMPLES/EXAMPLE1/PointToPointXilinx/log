@@ -1,0 +1,734 @@
+Reading C:/modeltech_6.6b/tcl/vsim/pref.tcl 
+
+# 6.6b
+
+# do compile.do 
+# Modifying modelsim.ini
+# ** Warning: vmap will not overwrite local modelsim.ini.
+#          MODELSIM set to modelsim.ini.
+#          modelsim.ini was modified because copy failed
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+# Modifying modelsim.ini
+# Error: Access is denied.
+# 
+# 
+#        Unable to replace existing ini file (modelsim.ini).  File can not be renamed.
+# C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver
+# C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver
+# C:/Users/Jin/Desktop/Courses/CSCE611/Wishbone/WBVHDLIB
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module DMA0001b
+# -- Compiling module MEM0003a
+# -- Compiling module bram08x32
+# 
+# Top level modules:
+# 	DMA0001b
+# 	MEM0003a
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity icn0001b
+# -- Compiling architecture icn0001b1 of icn0001b
+# -- Compiling entity syc0001a
+# -- Compiling architecture syc0001a1 of syc0001a
+# -- Loading package textio
+# -- Compiling entity testbnch
+# -- Compiling architecture testbnch1 of testbnch
+# vsim -L C:/Xilinx/12.1/ISE_DS/ISE/SIM_LIB/xilinxcorelib_ver -voptargs=+acc -t ns work.TESTBNCH 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: [1] TESTBNCH.VHD(94): (vopt-3473) Component instance "tbench : icn0001a" is not bound.
+# //  ModelSim SE 6.6b May 21 2010 
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading work.testbnch(testbnch1)#1
+# ** Warning: (vsim-3473) Component instance "tbench : icn0001a" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /testbnch  File: TESTBNCH.VHD
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/extclk'.
+# Executing ONERROR command at macro ./wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/exttst'.
+# Executing ONERROR command at macro ./wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/clk'.
+# Executing ONERROR command at macro ./wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/rst'.
+# Executing ONERROR command at macro ./wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/ack'.
+# Executing ONERROR command at macro ./wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/adr'.
+# Executing ONERROR command at macro ./wave.do line 8
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/stb'.
+# Executing ONERROR command at macro ./wave.do line 9
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/we'.
+# Executing ONERROR command at macro ./wave.do line 10
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/estb'.
+# Executing ONERROR command at macro ./wave.do line 11
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/eack'.
+# Executing ONERROR command at macro ./wave.do line 12
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/eadr'.
+# Executing ONERROR command at macro ./wave.do line 13
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/edwr'.
+# Executing ONERROR command at macro ./wave.do line 14
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/edrd'.
+# Executing ONERROR command at macro ./wave.do line 15
+# ** Error: (vish-4014) No objects found matching '/testbnch/tbench/ewe'.
+# Executing ONERROR command at macro ./wave.do line 16
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# ** Note: RUNNING TEST VECTORS FROM FILE TESTVECT.TXT
+#    Time: 0 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 300 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1100 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1100 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1100 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1175 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 1200 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1275 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1375 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1475 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1575 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1675 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1775 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1875 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 1975 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2 us  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2 us  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2 us  Iteration: 0  Instance: /testbnch
+# ** Error: EADR() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDRD() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EDWR() OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: ESTB OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EWE OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: EACK OUTPUT ERROR.
+#    Time: 2075 ns  Iteration: 0  Instance: /testbnch
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 2100 ns  Iteration: 0  Instance: /testbnch
+# ** Note: TEST VECTORS COMPLETE.
+#    Time: 2100 ns  Iteration: 0  Instance: /testbnch
+VSIM 2> # Break key hit 
+# 
+# <EOF> 

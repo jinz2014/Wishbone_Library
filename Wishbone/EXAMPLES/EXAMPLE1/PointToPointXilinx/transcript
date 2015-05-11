@@ -1,0 +1,65 @@
+# do compile.do 
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is jinz@tachyon.cse.sc.edu.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying modelsim.ini
+# ** Warning: vmap will not overwrite local modelsim.ini.
+#          MODELSIM set to modelsim.ini.
+#          modelsim.ini was modified because copy failed
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+# -L /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module DMA0001b
+# -- Compiling module MEM0003a
+# -- Compiling module SYC0001b
+# -- Compiling module TESTBNCH
+# -- Compiling module bram08x32
+# 
+# Top level modules:
+# 	DMA0001b
+# 	MEM0003a
+# 	SYC0001b
+# 	TESTBNCH
+# Model Technology ModelSim SE vcom 6.6b Compiler 2010.05 May 21 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity icn0001b
+# -- Compiling architecture icn0001b1 of icn0001b
+# vsim -L /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver -voptargs=+acc -t ns work.TESTBNCH 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.18-238.19.1.el5
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.TESTBNCH(fast)
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.icn0001b(icn0001b1)#1
+# Loading work.SYC0001b(fast)
+# Loading work.DMA0001b(fast)
+# Loading work.MEM0003a(fast)
+# Loading work.bram08x32(fast)
+# Loading /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver.BLK_MEM_GEN_V2_7(fast)
+# Loading /usr/local/3rdparty/mentor/xilinx_libs/xilinxcorelib_ver.BLK_MEM_GEN_V2_7_output_stage(fast)
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# Block Memory Generator CORE Generator module TESTBNCH.ICN.u02.U00.inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# ** Note: $finish    : TESTBNCH.v(93)
+#    Time: 5150 ns  Iteration: 1  Instance: /TESTBNCH
